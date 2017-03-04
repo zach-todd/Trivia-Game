@@ -1,0 +1,28 @@
+body{
+	background-image: url("../images/metal001.jpg");
+}
+
+.container{
+	background-color: green;
+	width: 80%;
+	height: 100%;
+	text-align:center;
+}
+h1{
+color:blue;
+font-size: 130px;
+}
+
+.Questions{
+
+}
+.Answers{
+	font-size: 20px;
+
+}
+#content{
+	font-size: 40px ;
+}
+#results{
+	font-size: 20px ;
+}
