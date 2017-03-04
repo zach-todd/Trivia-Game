@@ -4,55 +4,50 @@ var wrong = 0;
 var unanswered= 0; 
 var time = 30;
 var myVar; //timer
-var question1;
-var question2;
-var question3;
-var question4;
-var question5;
 var questions = { 
 	first:{
-		Q: "random demo question 1 ", //place holder
+		Q: " What team does Caboose belong too? ", //place holder
 		A:[
-			{answer: "demo answer 1a "}, //placeholder answer
-			{answer: "demo answer 1b "}, //placeholder answer
-			{answer: "demo answer 1c "}, //placeholder answer correct one
-			{answer: "demo answer 1d "}, //placeholder answer
+			{answer: "Green Team "}, //placeholder answer
+			{answer: "Red Team"}, //placeholder answer
+			{answer: "Blue team "}, //placeholder answer correct one
+			{answer: "The Freelancers"}, //placeholder answer
 		]
 	},
 	second:{
-		Q: "random demo question 2 ", //place holder
+		Q: "Who is the leader of Red team", //place holder
 		A:[
-			{answer: "demo answer 2a "}, //placeholder answer correct one
-			{answer: "demo answer 2b "}, //placeholder answer
-			{answer: "demo answer 2c "}, //placeholder answer
-			{answer: "demo answer 2d "}, //placeholder answer
+			{answer: "Sarge"}, //placeholder answer correct one
+			{answer: "Grif"}, //placeholder answer
+			{answer: "Simmons"}, //placeholder answer
+			{answer: "Church"}, //placeholder answer
 		]
 	},
 	third:{
-		Q: "random demo question 3 ", //place holder
+		Q: "What is Andy?", //place holder
 		A:[
-			{answer: "demo answer 3a "}, //placeholder answer
-			{answer: "demo answer 3b "}, //placeholder answer
-			{answer: "demo answer 3c "}, //placeholder answer correct one
-			{answer: "demo answer 3d "}, //placeholder answer
+			{answer: "Leader of the Blue team"}, //placeholder answer
+			{answer: "Leader of the Red team "}, //placeholder answer
+			{answer: "A bomb "}, //placeholder answer correct one
+			{answer: "Member of the Blue team"}, //placeholder answer
 		]
 	},
 	fourth:{
-		Q: "random demo question 4 ", //place holder
+		Q: 'Who says "FEAR MY LASER FACE!" ? ', //place holder
 		A:[
-			{answer: "demo answer 4a "}, //placeholder answer
-			{answer: "demo answer 4b "}, //placeholder answer correct one
-			{answer: "demo answer 4c "}, //placeholder answer
-			{answer: "demo answer 4d "}, //placeholder answer
+			{answer: "Caboose"}, //placeholder answer
+			{answer: "Church"}, //placeholder answer correct one
+			{answer: "Sarge"}, //placeholder answer
+			{answer: "Tex"}, //placeholder answer
 		]
 	},
 	fifth:{
-		Q: "random demo question 5 ", //place holder
+		Q: "Who has a deep hatred for Grif?", //place holder
 		A:[
-			{answer: "demo answer 5a "}, //placeholder answer
-			{answer: "demo answer 5b "}, //placeholder answer
-			{answer: "demo answer 5c "}, //placeholder answer correct one
-			{answer:"demo answer 5d "} //placeholder answer
+			{answer: "Tucker"}, //placeholder answer
+			{answer: "Biff"}, //placeholder answer
+			{answer: "Tex "}, //placeholder answer correct one
+			{answer:"Sister"} //placeholder answer
 		]
 	}
 };

@@ -1,15 +1,15 @@
 body{
-	background-image: url("../images/metal001.jpg");
+	background-image: url("../images/BG.jpg");
 }
 
 .container{
-	background-color: green;
+	background-color: blue;
 	width: 80%;
 	height: 100%;
 	text-align:center;
 }
 h1{
-color:blue;
+color:red;
 font-size: 130px;
 }
 
